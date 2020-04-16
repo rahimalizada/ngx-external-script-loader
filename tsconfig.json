@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@rahimalizada/ngx-external-script-loader": [
+        "dist/rahimalizada/ngx-external-script-loader/rahimalizada-ngx-external-script-loader",
+        "dist/rahimalizada/ngx-external-script-loader"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
