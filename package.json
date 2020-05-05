@@ -1,6 +1,25 @@
 {
   "name": "ngx-external-script-loader",
   "version": "0.0.2",
+  "description": "External script loader for angular projects",
+  "keywords": [
+    "external",
+    "script",
+    "loader",
+    "javascript"
+  ],
+  "author": {
+    "name": "Rahim Alizada"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/rahimalizada/ngx-external-script-loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahimalizada/ngx-external-script-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahimalizada/ngx-external-script-loader/issues"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
