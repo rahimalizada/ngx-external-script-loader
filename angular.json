@@ -30,18 +30,16 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/rahimalizada/ngx-external-script-loader/tsconfig.lib.json",
-              "projects/rahimalizada/ngx-external-script-loader/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/rahimalizada/ngx-external-script-loader/**/*.ts",
+              "projects/rahimalizada/ngx-external-script-loader/**/*.html"
             ]
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "@rahimalizada/ngx-external-script-loader"
 }
